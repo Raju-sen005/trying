@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h3>Welcome to this web page</h3>
+      <p>We want to build a team of 40-50 people for our software company.</p>
+      <span>If you are interested in working with our company,please click the button below and submit the form so that we can contact you.</span>
+    </div>
+    <p id="demo"></p>
+    <button
+      type="button"
+      onclick='document.getElementById("demo").
+  innerHTML = `<h2>Form</h2>
+  <form action="sunshine.php" method="POST">
+      <label for="name"> Name</label>
+    <Div>
+     <input type="text" name="myName" id="name">
+    </Div>
+    <label for="name"> Experience</label>
+    <Div>
+     <input type="text" name="myClass" id="CLASS">
+    </Div>
+    <label for="DOB"> DOB</label>
+    <Div>
+     <input type="date" name="myDate" id="Dob" >
+    </Div>
+    <label for="Mobile">Mobile No.</label>
+    <Div>
+    <input type="number" name="myNumber" id="Mobile no" >
+    </Div>
+    <label for="Mobile">Demand of Salary</label>
+    <Div>
+    <input type="number" name="myNumber" id="Mobile no" >
+    </Div>
+    <label for="email">Email</label>
+    <Div>
+    <input type="text" name="myEmail" id="email" placeholder="sensaab0005@gmail.com"required>
+    </Div>
+    <Div id="Agree">
+     are you Agree:<input type="checkbox" name="iAgree" id="e">
+    </Div>
+    <label for="Gender">Gender</label>
+    <Div id="Gender" >
+     Male<input type="radio" name="myGender" id="i" >
+     Female<input type="radio" name="myGender" id="i">
+     other<input type="radio" name="myGender" id="i">
+    </Div>
+    <Div id= "s">
+    write about yourself: <br> <textarea name="text" cols="30" rows="10"></textarea>
+    </Div>
+    <label for="car">Car</label>
+    <Div>
+      <select name="my car" id="car">
+        <option value="swf">swift</option>
+        <option value="ind">Indica</Indica></option>
+      </select>
+    </Div>
+    <Div>
+      <br>
+      <input type="submit" value="submit now">
+      <input type="reset" value="reset now">
+    </Div>
+  </form>`'>click
+    </button>
+
+    <script src="index.js"></script>
+  </body>
+</html>

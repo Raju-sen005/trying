@@ -1,0 +1,92 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background: rgb(244, 214, 159);
+}
+h3 {
+  text-align: center;
+  font-size: 3.6rem;
+  font-family: system-ui;
+  font-weight: 100;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+  margin: 0px;
+  line-height: 1.4;
+}
+span {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+}
+#demo {
+  background: aqua;
+  margin-top: -27px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  background: aqua;
+  font-size: xx-large;
+  margin-top: -270px;
+  font-family: ui-monospace;
+  margin-bottom: 0px;
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+  text-decoration-style: double;
+  font-weight: 100;
+}
+form {
+  background: aqua;
+  text-align: center;
+  height: 666px;
+  position: fixed;
+  width: 100%;
+}
+label {
+  position: relative;
+  top: 13px;
+}
+input {
+  position: relative;
+  top: 5px;
+}
+#Agree {
+  position: relative;
+  top: 10px;
+}
+#Gender {
+  position: relative;
+  top: 11px;
+}
+#i {
+  position: relative;
+  top: 3px;
+}
+#e {
+  position: relative;
+  top: 3px;
+}
+#s {
+  position: relative;
+  top: 25px;
+}
+#car {
+  position: relative;
+  top: 20px;
+}
+button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 70px;
+  border: 0.5px solid black;
+  border-radius: 3.5px;
+  background: transparent;
+  cursor: pointer;
+}
